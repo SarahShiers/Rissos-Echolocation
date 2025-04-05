@@ -1,0 +1,81 @@
+---
+title: "BIO710 - Independent Project Introduction"
+subtitle: "Shifting signals: Exploring geographic variation
+ in echolocation clicks of Risso’s dolphins in the
+ California Current"
+author: "Sarah Shiers"
+date: "2025-03-09"
+output: pdf_document
+---
+
+## Inroduction
+
+Risso’s dolphins (*Grampus griseus*) are deep-diving cetaceans that rely on echolocation for foraging and navigation, making them particularly sensitive to changes in their acoustic environment (Arranz et all., 2016). While these dolphins are broadly distributed, their population structure remains poorly understood, particularly in the California Current Ecosystem. Current stock assessments rely on large-scale geographic distinctions which may overlook important regional variations (Soldevilla et al., 2017). Understanding finer-scale population structure is crucial for conservation efforts, especially as offshore wind energy development expands along the U.S. West Coast, introducing potential acoustic disturbances that could impact this species. Passive acoustic monitoring (PAM) has proven to be an effective tool for studying cetacean populations over long time scales, offering insights into species distribution and behavior through the analysis of their echolocation signals (Soldevilla et al., 2008; Van Parijs et al., 2009).
+
+This study examines spatial, temporal, and geographic variation in the spectral characteristics of Risso’s dolphin echolocation clicks using 273 detections of Risso's dolphins from the California Current Ecosystem collected over six years across multiple passive acoustic surveys (Rankin et al., 2024). The analysis follows the methodology established by Soldevilla et al. (2017) while being tailored to this unique dataset. Click analysis will be conducted using custom scripts in Matlab and R, with all code made publicly available on GitHub to ensure transparency and reproducibility. The primary focus will be on spectral features, specifically peak frequencies and notch depths, which characterize species-specific banding patterns (Soldevilla et al., 2008). Mean spectral peak and notch frequencies will be calculated for each encounter, using the R package “PAMpal” to assist in feature extraction (Sakai, 2023).
+
+As in Soldevilla et al.'s (2017) research, to assess geographic variation, statistical tests will be employed to determine whether click characteristics differ between regions. K-means clustering will be applied to spectral peak and notch data to identify common patterns across locations, while ANOVA will test for significant differences in spectral features among predefined geographic regions. Additionally, regression analysis will evaluate correlations between geographic position and click characteristics, providing insight into whether spatial separation corresponds to distinct spectral profiles. These analyses will help determine whether regional variation in Risso’s dolphin echolocation clicks reflects underlying population structure, contributing to improved stock assessments and informing conservation efforts amid growing offshore wind development in the region (Soldevilla et al., 2008, Soldevilla et al., 2017).
+
+## Research Question
+
+How do the spectral features of Risso’s dolphin echolocation clicks vary geographically and temporally within the California Current?
+
+## Hypothesis
+
+I hypothesize that the spectral features of Risso’s dolphin echolocation clicks (specifically peak frequencies and notch depths) exhibit significant geographic variation within the California Current Ecosystem, reflecting potential differences in population structure or habitat use.
+
+## Specific Aims
+
+1. Examine and document spatial and temporal variation in Risso’s dolphin click types throughout the California Current.
+
+2. Examine and contrast the spectral characteristics of Risso's dolphin clicks in the California Current with those from other regions, such as the Hawaiian Islands, Gulf of Mexico, and U.S. East Coast.
+
+## References
+
+Arranz, P., DeRuiter, S. L., Stimpert, A. K., Neves, S., Friedlaender, A. S., Goldbogen, J. A., Visser, F., Calambokidis, J., Southall, B. L., & Tyack, P. L. (2016). Discrimination of fast click-series produced by tagged Risso’s dolphins (Grampus griseus) for echolocation or communication. Journal of Experimental Biology, 219(18), 2898–2907. https://doi.org/10.1242/jeb.144295
+
+Rankin, S., Burger, K., Hom-Weaver, C., Palmer K., Sakai, ., & Simonis, A. (2024). Final Report for Adrift in the California Current Survey: Passive Acoustic Monitoring in the California Current Using Drifting Recorders. Camarillo, CA: U.S. Department of the Interior, Bureau of Ocean Energy Management. Report No. OCS Study BOEM 2024-047. Contract No. G14 M20PG00013.
+
+Sakai, T. (2023). PAMpal: Load and Process Passive Acoustic Data. R package version 1.0.0, https://CRAN.R-project.org/package=PAMpal.
+
+Soldevilla, M. S., Baumann-Pickering, S., Cholewiak, D., Hodge, L. E. W., Oleson, E. M., & Rankin, S. (2017). Geographic variation in Risso’s dolphin echolocation click spectra. The Journal of the Acoustical Society of America, 142(2), 599–617. https://doi.org/10.1121/1.4996002
+
+Soldevilla, M. S., Henderson, E. E., Campbell, G. S., Wiggins, S. M., Hildebrand, J. A., & Roch, M. A. (2008). Classification of Risso’s and Pacific white-sided dolphins using spectral properties of echolocation clicks. The Journal of the Acoustical Society of America, 124(1), 609–624. https://doi.org/10.1121/1.2932059
+
+Van Parijs, S., Clark, C., Sousa-Lima, R., Parks, S., Rankin, S., Risch, D., & Van Opzeeland, I. (2009). Management and research applications of real-time and archival passive acoustic sensors over varying temporal and spatial scales. Marine Ecology Progress Series, 395, 21–36. https://doi.org/10.3354/meps08123 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
