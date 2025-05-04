@@ -90,7 +90,8 @@ M.S. Student, Estuary and Ocean Science Center
 San Francisco State University  
 
 **Supervised by:**  
-Dr. Anne Simonis, NOAA Southwest Fisheries Science Center
+Dr. Anne Simonis, Principal Investigator
+San Francisco State University
 
 ## Contributions
 
